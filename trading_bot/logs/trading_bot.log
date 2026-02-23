@@ -1,0 +1,65 @@
+2026-02-23 19:00:34 | INFO | root | Trading bot started successfully.
+2026-02-23 19:05:32 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:09:31 | ERROR | root | Validation error: Invalid side. Allowed values: {'SELL', 'BUY'}
+2026-02-23 19:14:15 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:14:15 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:14:15 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=MARKET | Quantity=0.001 | Price=None
+2026-02-23 19:14:16 | ERROR | bot.client | Binance API error: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-23 19:14:16 | ERROR | bot.orders | Order execution failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-23 19:14:16 | ERROR | root | Error placing order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-23 19:16:00 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:16:00 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:16:00 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=MARKET | Quantity=0.003 | Price=None
+2026-02-23 19:16:01 | INFO | bot.client | Order placed successfully | OrderID=12493363860
+2026-02-23 19:16:01 | INFO | bot.orders | Order execution completed | OrderID=12493363860
+2026-02-23 19:16:59 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:17:00 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:17:00 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=MARKET | Quantity=0.003 | Price=None
+2026-02-23 19:17:00 | INFO | bot.client | Order placed successfully | OrderID=12493381991
+2026-02-23 19:17:00 | INFO | bot.orders | Order execution completed | OrderID=12493381991
+2026-02-23 19:17:11 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:17:12 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:17:12 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=LIMIT | Quantity=0.003 | Price=40000.0
+2026-02-23 19:17:13 | INFO | bot.client | Order placed successfully | OrderID=12493387509
+2026-02-23 19:17:13 | INFO | bot.orders | Order execution completed | OrderID=12493387509
+2026-02-23 19:30:11 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:30:11 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:30:11 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=STOP_LIMIT | Quantity=0.003 | Price=None | StopPrice=None
+2026-02-23 19:30:11 | ERROR | bot.client | Unexpected error occurred while placing order.
+Traceback (most recent call last):
+  File "C:\Users\goyal\Desktop\projects\trading_bot\trading_bot\bot\client.py", line 74, in place_order
+    raise ValueError(
+ValueError: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:30:11 | ERROR | bot.orders | Order execution failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:30:11 | ERROR | root | Order failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:38 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:31:39 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:31:39 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=STOP_LIMIT | Quantity=0.003 | Price=None | StopPrice=49000.0
+2026-02-23 19:31:39 | ERROR | bot.client | Unexpected error occurred while placing order.
+Traceback (most recent call last):
+  File "C:\Users\goyal\Desktop\projects\trading_bot\trading_bot\bot\client.py", line 74, in place_order
+    raise ValueError(
+ValueError: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:39 | ERROR | bot.orders | Order execution failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:39 | ERROR | root | Order failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:55 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:31:55 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:31:55 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=STOP_LIMIT | Quantity=0.003 | Price=None | StopPrice=49000.0
+2026-02-23 19:31:55 | ERROR | bot.client | Unexpected error occurred while placing order.
+Traceback (most recent call last):
+  File "C:\Users\goyal\Desktop\projects\trading_bot\trading_bot\bot\client.py", line 74, in place_order
+    raise ValueError(
+ValueError: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:55 | ERROR | bot.orders | Order execution failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:31:55 | ERROR | root | Order failed: Both price and stopPrice are required for STOP_LIMIT.
+2026-02-23 19:32:55 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:32:56 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:32:56 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=STOP_LIMIT | Quantity=0.003 | Price=48000.0 | StopPrice=49000.0
+2026-02-23 19:32:57 | ERROR | bot.client | Binance API error: Order would immediately trigger.
+2026-02-23 19:32:57 | ERROR | bot.orders | Order execution failed: APIError(code=-2021): Order would immediately trigger.
+2026-02-23 19:32:57 | ERROR | root | Order failed: APIError(code=-2021): Order would immediately trigger.
+2026-02-23 19:34:30 | INFO | bot.orders | Input validation successful.
+2026-02-23 19:34:31 | INFO | bot.client | Binance Futures Testnet client initialized successfully.
+2026-02-23 19:34:31 | INFO | bot.client | Placing order | Symbol=BTCUSDT | Side=BUY | Type=STOP_LIMIT | Quantity=0.003 | Price=66000.0 | StopPrice=67000.0
+2026-02-23 19:34:32 | INFO | bot.client | Order placed successfully | OrderID=None
+2026-02-23 19:34:32 | INFO | bot.orders | Order execution completed | OrderID=None
